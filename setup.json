@@ -1,0 +1,6 @@
+{
+    "db_path": "src/db",
+    "default_schema": "schema",
+    "schema_dir": "schemas",
+    "overwrite": true
+}

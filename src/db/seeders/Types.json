@@ -1,0 +1,17 @@
+[
+    {
+        "name": "xml"
+    },
+    {
+        "name": "html"
+    },
+    {
+        "name": "svg"
+    },
+    {
+        "name": "a-frame"
+    },
+    {
+        "name": "webgl"
+    }
+]
