@@ -1,0 +1,25 @@
+[
+    {
+        "name": "User",
+        "attributes": {
+            "firstName": "string",
+            "lastName": "string",
+            "email": "string"
+        }
+    },
+    {
+        "name": "Types",
+        "attributes": {
+            "name": "string",
+            "description": "string"
+        }
+    },
+    {
+        "name": "Templates",
+        "attributes": {
+            "name": "string",
+            "type": "string",
+            "doc": "json"
+        }
+    }
+]
