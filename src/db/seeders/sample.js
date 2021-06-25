@@ -3,7 +3,7 @@
 let name = "Types";
 const seeds = require(`./${name}.json`)
 
-function addDates(seeds) {
+function prepare(seeds) {
 
   seeds.forEach(seed => {
     seed["createdAt"] = new Date();
@@ -14,7 +14,7 @@ function addDates(seeds) {
 
 }
 
-let data = addDates(seeds);
+let data = prepare(seeds);
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
