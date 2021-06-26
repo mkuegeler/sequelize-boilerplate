@@ -46,7 +46,7 @@ switch (initArgs[0]) {
 
 // Argument functions
 function help() {
-    console.log("Run this script with one of these arguments: 'create', 'up', 'undo', 'all', 'to name-of-migration.js'");
+    console.log("Run this script with one of these arguments: 'create', 'up', 'undo', 'all', 'to name-of-migration.js', 'seed', 'seedall', 'seedundo', 'seedundoall' ");
 }
 
 function migrations_up() {
@@ -66,7 +66,7 @@ function migrations_to(to) {
 }
 
 function seed(model) {
-    execute(`npx sequelize-cli seed:generate --name demo-${model}`);
+    execute(`npx sequelize-cli seed:generate --name seed-${model}`);
 }
 
 function seed_all() {
