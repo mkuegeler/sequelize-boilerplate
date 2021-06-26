@@ -1,7 +1,8 @@
 'use strict';
 
-let name = "Types";
+const name = "Types";
 const seeds = require(`./${name}.json`)
+
 
 function prepare(seeds) {
 
@@ -14,6 +15,7 @@ function prepare(seeds) {
 
 }
 
+
 let data = prepare(seeds);
 
 module.exports = {
@@ -25,3 +27,6 @@ module.exports = {
     return queryInterface.bulkDelete(name, null, {});
   }
 };
+
+
+

@@ -1,0 +1,159 @@
+[
+    {
+        "name": "document",
+        "type": "html",
+        "doc": [
+            {
+                "name": "html",
+                "doctype": true,
+                "attributes": {
+                    "lang": "en"
+                },
+                "children": [
+                    {
+                        "name": "head"
+                    },
+                    {
+                        "name": "body",
+                        "children": [
+                            {
+                                "name": "span",
+                                "text": "<!--  Placeholder -->"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "meta",
+        "type": "html",
+        "doc": [
+            {
+                "name": "meta",
+                "parent": "head",
+                "attributes": {
+                    "charset": "UTF-8"
+                }
+            },
+            {
+                "name": "meta",
+                "parent": "head",
+                "attributes": {
+                    "name": "viewport",
+                    "content": "width=device-width, initial-scale=1.0"
+                }
+            }
+        ]
+    },
+    {
+        "name": "link",
+        "type": "html",
+        "doc": [
+            {
+                "name": "link",
+                "parent": "head",
+                "attributes": {
+                    "rel": "stylesheet",
+                    "href": "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
+                    "integrity": "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",
+                    "crossorigin": "anonymous"
+                }
+            }
+        ]
+    },
+    {
+        "name": "header",
+        "type": "html",
+        "doc": [
+            {
+                "name": "header",
+                "parent": "body",
+                "children": [
+                    {
+                        "name": "div",
+                        "attributes": {
+                            "class": "jumbotron"
+                        },
+                        "children": [
+                            {
+                                "name": "h1",
+                                "attributes": {
+                                    "class": "display-3"
+                                },
+                                "text": "Header Title"
+                            },
+                            {
+                                "name": "p",
+                                "attributes": {
+                                    "class": "lead"
+                                },
+                                "text": "Sub Title"
+                            },
+                            {
+                                "name": "hr",
+                                "attributes": {
+                                    "class": "my-2"
+                                }
+                            },
+                            {
+                                "name": "p",
+                                "attributes": {
+                                    "class": "lead"
+                                },
+                                "children": [
+                                    {
+                                        "name": "div",
+                                        "attributes": {
+                                            "id": "main"
+                                        },
+                                        "children": [
+                                            {
+                                                "name": "h4",
+                                                "text": "Main Title"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "script",
+        "type": "html",
+        "doc": [
+            {
+                "name": "script",
+                "parent": "body",
+                "attributes": {
+                    "src": "https://code.jquery.com/jquery-3.2.1.slim.min.js",
+                    "integrity": "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN",
+                    "crossorigin": "anonymous"
+                }
+            },
+            {
+                "name": "script",
+                "parent": "body",
+                "attributes": {
+                    "src": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js",
+                    "integrity": "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q",
+                    "crossorigin": "anonymous"
+                }
+            },
+            {
+                "name": "script",
+                "parent": "body",
+                "attributes": {
+                    "src": "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js",
+                    "integrity": "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl",
+                    "crossorigin": "anonymous"
+                }
+            }
+        ]
+    }
+]
